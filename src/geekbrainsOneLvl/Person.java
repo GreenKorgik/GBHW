@@ -1,5 +1,9 @@
 package geekbrainsOneLvl;
+<<<<<<< HEAD
 //comment
+=======
+
+>>>>>>> 6a0ca00 (Сделана задача  с массивом сотрудников)
 public class Person {
     private String lastName;
     private String name;
