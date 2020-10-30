@@ -5,7 +5,7 @@ public class Employee extends Person{
     private AppointmentShoole appointmentEmployee;
     private String telephoneNumber;
     private int salary;
-    private final int idEmployee;//unique serial number employee
+    private final int idEmployee;//unique serial number employee here
 
     public Employee(String lastName, String name, String middleName, AppointmentShoole appointmentEmployee, String telephoneNumber, int salary, int age)
     {

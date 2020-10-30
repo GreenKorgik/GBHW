@@ -5,7 +5,7 @@ import java.util.Formatter;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+
         Employee director = new Employee("Дамблдор","Альбус","Персиваль",AppointmentShoole.Director,"+1 (781)-452-40-77",120000,113);
         Employee[] employees = {director,new Employee("Северус","Снейп",null,AppointmentShoole.Dean,"+1 (781)-452-40-78",100000,36),
                 new Employee("Макгонагалл","Минерва",null,AppointmentShoole.Professor,"+1 (781)-452-40-75",100000,54),
