@@ -5,11 +5,10 @@ public class Employee extends Person{
     private AppointmentShoole appointmentEmployee;
     private String telephoneNumber;
     private int salary;
-<<<<<<< HEAD
+
     private final int idEmployee;//unique serial number employee here
-=======
-    private final int idEmployee;//unique serial number employee
->>>>>>> 6a0ca00 (Сделана задача  с массивом сотрудников)
+
+
 
     public Employee(String lastName, String name, String middleName, AppointmentShoole appointmentEmployee, String telephoneNumber, int salary, int age)
     {
