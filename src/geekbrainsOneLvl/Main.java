@@ -18,8 +18,10 @@ public class Main {
                 //if need all info use employees[i].toString()
             }
         }
+        salaryUpp(employees);
+        printEmploys(employees);
     }
-    public void salaryUpp(Employee[] employees)//method increases the salary of employees over 45 years old
+    public static void salaryUpp(Employee[] employees)//method increases the salary of employees over 45 years old
     {
 
         for(int i = 0;i<employees.length;i++) {
@@ -28,7 +30,7 @@ public class Main {
             }
         }
     }
-    public void printEmploys(Employee[] employees)//just print info about all employees
+    public static void printEmploys(Employee[] employees)//just print info about all employees
     {
         for(int i = 0;i<employees.length;i++) {
             System.out.println(employees[i].toString());
