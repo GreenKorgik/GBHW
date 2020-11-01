@@ -1,5 +1,5 @@
 package geekbrainsOneLvl;
-
+//
 public enum AppointmentShoole {
     Director,
     Professor,

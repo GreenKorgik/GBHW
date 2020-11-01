@@ -1,5 +1,5 @@
 package geekbrainsOneLvl;
-
+//
 public class Employee extends Person{
     private static int numberOfEmployees = 0;
     private AppointmentShoole appointmentEmployee;
